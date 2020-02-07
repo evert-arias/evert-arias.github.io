@@ -12,7 +12,7 @@ export const Intro = () => (
     <Header />
     <IntroWrapper as={Container}>
       <Details>
-        <h1>Welcome!</h1>
+        <h1>EARIAS.ME</h1>
         <h4>{defaultDescription}</h4>
         <Button as={AnchorLink} href="#contact">
           Contact

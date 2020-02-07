@@ -11,7 +11,7 @@ export const Skills = () => (
         <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
       </Thumbnail>
       <Details>
-        <h1>Open Source Solutions</h1>
+        <h1>About me</h1>
         <p>
           I'm focused on helping the open source community with the development and maintenance of existing projects, as
           well as innovating and creating new components and tools to contribute to the IoT world and web development.
@@ -20,6 +20,10 @@ export const Skills = () => (
         </p>
         <Button as={AnchorLink} href="#contact">
           Donate
+        </Button>
+        <p></p>
+        <Button as={AnchorLink} href="https://paypal.me/ariascode">
+          Sponsors
         </Button>
       </Details>
     </SkillsWrapper>

@@ -4,7 +4,7 @@ module.exports = {
   author: 'Evert Arias',
   url: 'https://earias.me',
   legalName: 'Evert Arias',
-  defaultDescription: 'I write code to help the community boost they open source projects.',
+  defaultDescription: 'Home of my personal blog, apps and projects',
   socialLinks: {
     twitter: 'http://www.twitter.com/evert_arias',
     github: 'https://github.com/evert-arias',
