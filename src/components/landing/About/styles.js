@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
 `;
 
-export const SkillsWrapper = styled.div`
+export const AboutWrapper = styled.div`
   padding: 4rem 0;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@ export const Details = styled.div`
 
   h1 {
     margin-bottom: 2rem;
-    font-size: 26pt;
+    font-size: 24pt;
     color: #212121;
   }
 

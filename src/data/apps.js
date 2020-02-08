@@ -1,5 +1,5 @@
 module.exports = {
-  enabled: true,
+  enabled: false,
   apps: [
     {
       id: 1,
