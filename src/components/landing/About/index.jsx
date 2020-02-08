@@ -14,7 +14,7 @@ export const Skills = () => (
         <h1>About</h1>
         <p>
           I'm focused on helping the open source community with new developments and maintenance of existing projects,
-          as well as innovating and creating new components and tools to contribute to the IoT world and web development.
+          as well as innovating and creating new components and tools to contribute to the IoT community and web development.
         </p>
         <Button as={AnchorLink}> Download resume (PDF)</Button>
       </Details>
