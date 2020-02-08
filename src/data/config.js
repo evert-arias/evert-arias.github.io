@@ -11,7 +11,7 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/evert-arias/',
     youtube: 'https://www.youtube.com/user/evert-arias',
   },
-  googleAnalyticsID: 'UA-137998950-5',
+  googleAnalyticsID: 'UA-137998950-6',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
