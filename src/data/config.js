@@ -25,7 +25,7 @@ module.exports = {
     zipCode: 'ZipCode',
   },
   contact: {
-    email: 'info@earias.me',
+    email: 'me@earias.me',
     phone: '',
   },
   foundingDate: '2020',
