@@ -4,7 +4,7 @@ import { Container, Button } from 'components/common';
 import dev from 'assets/illustrations/skills.svg';
 import { Wrapper, AboutWrapper, Details, Thumbnail } from './styles';
 
-export const Skills = () => (
+export const About = () => (
   <Wrapper id="about">
     <AboutWrapper as={Container}>
       <Thumbnail>
@@ -13,8 +13,11 @@ export const Skills = () => (
       <Details>
         <h1>About</h1>
         <p>
-          I'm focused on helping the open source community with new developments and maintenance of existing projects,
-          as well as innovating and creating new components and tools to contribute to the IoT community and web development.
+          Software Developer. Learner, thinker and a motivated maker. Co-founder of{' '}
+          <a href="https://iotbits.net">IOTBITS</a>, an startup company located in Tampa, Florida. On my spare time, I
+          collaborate with the open source community with new developments and maintenance of existing projects, in
+          addition to innovating and creating new components and tools to contribute to the IoT community and web
+          development.
         </p>
         <Button as={AnchorLink}> Download resume (PDF)</Button>
       </Details>
