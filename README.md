@@ -1,9 +1,9 @@
-# earias.me
+# My personal website
 
-Thanks goes to [Ismail Ghallou](https://github.com/smakosh) for the [theme](https://github.com/smakosh/gatsby-theme-portfolio) I have used.
+My personal website developed with [gatsby](https://www.gatsbyjs.org/) static site generator.
 
 
 
-## License
+## Copyright
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+[MIT](../LICENSE.md) © [Evert Arias](https://evert-arias.github.io/)
