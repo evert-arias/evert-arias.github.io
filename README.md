@@ -1,6 +1,6 @@
 # My personal website
 
-My personal website developed with [gatsby](https://www.gatsbyjs.org/) static site generator.
+My personal website - Developed with [gatsby](https://www.gatsbyjs.org/) static site generator.
 
 
 
