@@ -10,6 +10,7 @@ const NavbarLinks = ({ desktop }) => (
     <a href="https://github.com/evert-arias">Github</a>
     <AnchorLink href="#about">About</AnchorLink>
     <AnchorLink href="#contact">Contact</AnchorLink>
+    <AnchorLink href="#thanks">Thanks</AnchorLink>
   </Wrapper>
 );
 
