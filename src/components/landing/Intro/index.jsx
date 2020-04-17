@@ -1,11 +1,11 @@
-import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Header } from 'components/theme';
-import { Container, Button } from 'components/common';
-import dev from 'assets/illustrations/dev.svg';
-import { defaultDescription } from 'data/config';
+import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Header } from "components/theme";
+import { Container, Button } from "components/common";
+import dev from "assets/illustrations/stackoverflow.svg";
+import { defaultDescription } from "data/config";
 
-import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
+import { Wrapper, IntroWrapper, Details, Thumbnail } from "./styles";
 
 export const Intro = () => (
   <Wrapper>
