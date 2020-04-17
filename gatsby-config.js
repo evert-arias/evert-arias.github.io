@@ -1,6 +1,6 @@
-const config = require('./src/data/config');
+const config = require("./src/data/config");
 
-require('dotenv').config({
+require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
@@ -11,16 +11,16 @@ module.exports = {
     author: config.author,
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-styled-components',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-styled-components",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
-      resolve: 'gatsby-source-graphql',
+      resolve: "gatsby-source-graphql",
       options: {
-        typeName: 'GitHub',
-        fieldName: 'github',
-        url: 'https://api.github.com/graphql',
+        typeName: "GitHub",
+        fieldName: "github",
+        url: "https://api.github.com/graphql",
         headers: {
           Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
         },
@@ -28,23 +28,23 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-nprogress',
+      resolve: "gatsby-plugin-nprogress",
       options: {
         color: config.themeColor,
         showSpinner: false,
       },
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: config.googleAnalyticsID,
         head: true,
       },
     },
     {
-      resolve: 'gatsby-plugin-favicon',
+      resolve: "gatsby-plugin-favicon",
       options: {
-        logo: './static/favicon/favicon-512.png',
+        logo: "./static/favicon/day92-freelancing.svg",
         injectHTML: true,
         icons: {
           android: true,
@@ -60,17 +60,17 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: "gatsby-plugin-manifest",
       options: {
         name: config.defaultTitle,
-        short_name: 'starter',
-        start_url: '/',
+        short_name: "starter",
+        start_url: "/",
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
-        display: 'minimal-ui',
-        icon: './static/favicon/favicon-512.png',
+        display: "minimal-ui",
+        icon: "./static/favicon/day92-freelancing.svg",
       },
     },
-    'gatsby-plugin-offline',
+    "gatsby-plugin-offline",
   ],
 };

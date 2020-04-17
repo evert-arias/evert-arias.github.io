@@ -4,9 +4,9 @@ module.exports = {
     {
       id: 1,
       show: true,
-      name: 'Printable',
-      desc: 'A beautiful printable calendar',
-      url: 'https://apps.earias.me/printcal',
+      name: "Printable",
+      desc: "A beautiful printable calendar",
+      url: "https://apps.earias.me/printcal",
     },
   ],
 };
