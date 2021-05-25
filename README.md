@@ -1,9 +1,20 @@
-# My personal website
+# earias.me
 
-My personal website - Developed with [gatsby](https://www.gatsbyjs.org/) static site generator.
+## Build Setup
 
+```bash
+# install dependencies
+$ npm install
 
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-## Copyright
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-[MIT](../LICENSE.md) © [Evert Arias](https://evert-arias.github.io/)
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
