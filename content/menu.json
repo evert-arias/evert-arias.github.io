@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Home",
+    "slug": "/"
+  },
+  {
+    "name": "Projects",
+    "slug": "#projects"
+  },
+  {
+    "name": "Apps",
+    "slug": "#apps"
+  },
+  {
+    "name": "Thanks",
+    "slug": "#thanks"
+  },
+  {
+    "name": "Contact",
+    "slug": "#contact"
+  }
+]
