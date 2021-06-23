@@ -1,4 +1,4 @@
-# earias.me
+# My personal website
 
 ## Build Setup
 
